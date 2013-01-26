@@ -1,1 +1,1 @@
-alias instances="ec2-describe-instances"
+ alias instances="ec2-describe-instances"

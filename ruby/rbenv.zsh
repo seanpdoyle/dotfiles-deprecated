@@ -1,3 +1,5 @@
+export RBENV_ROOT=/usr/local/opt/rbenv
+
 # rehash shims
 rbenv rehash 2>/dev/null
 
