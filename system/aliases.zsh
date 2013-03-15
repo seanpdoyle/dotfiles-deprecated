@@ -9,7 +9,4 @@ then
   alias la='gls -A --color'
 fi
 
-# specific to me
-alias spot='cd ~/Code/spotalog/server/src/main/webapp'
-alias caste='cd ~/Code/caste'
-alias sever='yeoman server'
+alias deploy='script/deploy'
