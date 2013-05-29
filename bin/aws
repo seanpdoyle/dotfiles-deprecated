@@ -1,0 +1,5 @@
+#!/bin/sh
+#
+# AWS ssh
+
+ssh -i ~/.ec2/gsg-keypair ubuntu@$1.fitly.org
