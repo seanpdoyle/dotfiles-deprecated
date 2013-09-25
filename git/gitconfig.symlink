@@ -22,7 +22,7 @@
         ui = true
 [core]
         excludesfile = /opt/boxen/config/git/gitignore
-        editor = $EDITOR
+        editor = vim
 [apply]
         whitespace = nowarn
 [mergetool]
