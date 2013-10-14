@@ -1,9 +1,7 @@
 alias r='rbenv local system'
 
-alias rake='rbenv exec rake'
 alias gem='rbenv exec gem'
 alias bundle='rbenv exec bundle'
-alias guard='bundle exec guard'
 
 alias be='bundle exec'
 

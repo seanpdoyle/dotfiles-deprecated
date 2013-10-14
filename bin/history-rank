@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# List the top X  most popular commands
+
+set -e 
+
+cat ~/.zsh_history |
+  cut -d ';' -f 2- 2>/dev/null |
+    awk '{a[$1]++}END{for(i in a){print a[i] " " i}}' |
+      sort -rn |
+        head
